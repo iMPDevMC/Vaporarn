@@ -1,3 +1,9 @@
+on enable:
+	set {api.vaporarn} to "&a&lRunning"
+
+on disable:
+	set {api.vaporarn} to "&c&lInactive"
+
 variables:
 	{vaporarn.permission} = "vaporarn.warn" # Default permission. Can be changed with //warnconfig
 	{vaporarn.warns.%player%} = "0" # Default number of warns per players
